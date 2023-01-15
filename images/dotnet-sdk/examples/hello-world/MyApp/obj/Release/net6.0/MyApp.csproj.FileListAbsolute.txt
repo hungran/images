@@ -1,0 +1,15 @@
+/app/bin/Release/net6.0/MyApp
+/app/bin/Release/net6.0/MyApp.deps.json
+/app/bin/Release/net6.0/MyApp.runtimeconfig.json
+/app/bin/Release/net6.0/MyApp.dll
+/app/bin/Release/net6.0/MyApp.pdb
+/app/obj/Release/net6.0/MyApp.csproj.AssemblyReference.cache
+/app/obj/Release/net6.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/app/obj/Release/net6.0/MyApp.AssemblyInfoInputs.cache
+/app/obj/Release/net6.0/MyApp.AssemblyInfo.cs
+/app/obj/Release/net6.0/MyApp.csproj.CoreCompileInputs.cache
+/app/obj/Release/net6.0/MyApp.dll
+/app/obj/Release/net6.0/refint/MyApp.dll
+/app/obj/Release/net6.0/MyApp.pdb
+/app/obj/Release/net6.0/MyApp.genruntimeconfig.cache
+/app/obj/Release/net6.0/ref/MyApp.dll
