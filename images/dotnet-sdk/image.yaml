@@ -1,0 +1,7 @@
+versions:
+  - apko:
+    config: configs/dotnet6-sdk.apko.yaml
+    extractTagsFrom:
+      package: dotnet6-sdk
+    tags:
+      - latest

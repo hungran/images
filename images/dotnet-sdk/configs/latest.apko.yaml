@@ -1,0 +1,34 @@
+contents:
+  repositories:
+    - https://dl-cdn.alpinelinux.org/alpine/edge/main
+  packages:
+    - wolfi-baselayout
+    - dotnet6-sdk
+
+accounts:
+  groups:
+    - groupname: dotnet
+      gid: 10000
+  users:
+    - username: dotnet
+      uid: 10000
+      gid: 10000
+  run-as: 10000
+
+paths:
+  - path: /source
+    type: directory
+    uid: 10000
+    gid: 10000
+    permissions: 0o755
+
+entrypoint:
+  type: service-bundle
+  services:
+    dotnet6-sdk: /usr/bin/dotnet restore --use-current-runtime
+
+archs:
+  - x86_64
+  - aarch64
+  - armv7
+  - s390x

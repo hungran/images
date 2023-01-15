@@ -1,0 +1,5 @@
+/app/out/MyApp
+/app/out/MyApp.dll
+/app/out/MyApp.deps.json
+/app/out/MyApp.runtimeconfig.json
+/app/out/MyApp.pdb
